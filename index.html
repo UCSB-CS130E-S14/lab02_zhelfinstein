@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DPEA LED Shield Simulator</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="myStyle.css" />
+    <link rel="stylesheet" type="text/css" href="mobile.css" media="handheld, only screen and (max-width: 500px), only screen and (max-device-width: 500px)" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="drawer.js"></script>
+  </head>
+  <body onload="draw();">
+  <div id="container">
+    <h1>DPEA LED Shield Simulator</h1>
+    <canvas id="myCanvas1" width="125" height="500"></canvas>
+    <div id="buttons1">
+      <div id="b15">
+	<button id="D15High" type="button" onclick="light(15);">High</button>
+	<button id="D15Low" type="button" onclick="off(15);">Low</button>
+      </div>
+      <div id="b14">
+	<button id="D14High" type="button" onclick="light(14);">High</button>
+	<button id="D14Low" type="button" onclick="off(14);">Low</button>
+      </div>
+      <div id="b13">
+	<button id="D13High" type="button" onclick="light(13);">High</button>
+	<button id="D13Low" type="button" onclick="off(13);">Low</button>
+      </div>
+      <div id="b12">
+	<button id="D12High" type="button" onclick="light(12);">High</button>
+	<button id="D12Low" type="button" onclick="off(12);">Low</button>
+      </div>
+      <div id="b11">
+	<button id="D11High" type="button" onclick="light(11);">High</button>
+	<button id="D11Low" type="button" onclick="off(11);">Low</button>
+      </div>
+      <div id="b10">
+	<button id="D10High" type="button" onclick="light(10);">High</button>
+	<button id="D10Low" type="button" onclick="off(10);">Low</button>
+      </div>
+      <div id="b9">
+	<button id="D9High" type="button" onclick="light(9);">High</button>
+	<button id="D9Low" type="button" onclick="off(9);">Low</button>
+      </div>
+    </div>
+    <canvas id="myCanvas2" width="125" height="500"></canvas>
+    <div id="buttons2">
+      <div id="b8">
+	<button id="D8High" type="button" onclick="light(8);">High</button>
+	<button id="D8Low" type="button" onclick="off(8);">Low</button>
+      </div>
+      <div id="b7">
+	<button id="D7High" type="button" onclick="light(7);">High</button>
+	<button id="D7Low" type="button" onclick="off(7);">Low</button>
+      </div>
+      <div id="b6">
+	<button id="D6High" type="button" onclick="light(6);">High</button>
+	<button id="D6Low" type="button" onclick="off(6);">Low</button>
+      </div>
+      <div id="b5">
+	<button id="D5High" type="button" onclick="light(5);">High</button>
+	<button id="D5Low" type="button" onclick="off(5);">Low</button>
+      </div>
+      <div id="b4">
+	<button id="D4High" type="button" onclick="light(4);">High</button>
+	<button id="D4Low" type="button" onclick="off(4);">Low</button>
+      </div>
+      <div id="b3">
+	<button id="D3High" type="button" onclick="light(3);">High</button>
+	<button id="D3Low" type="button" onclick="off(3);">Low</button>
+      </div>
+      <div id="b2">
+	<button id="D2High" type="button" onclick="light(2);">High</button>
+	<button id="D2Low" type="button" onclick="off(2);">Low</button>
+      </div>
+    </div>
+    </div>
+    <footer>
+      <p id="cop">(c) April 2014 </p>
+      <p id="foot">created by zach helfinstein </p>
+    </footer>
+  </body>
+</html>

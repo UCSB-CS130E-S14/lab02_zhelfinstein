@@ -1,0 +1,59 @@
+html {
+    background: #03652C;
+}
+#container {
+    width: 700px;
+    margin: auto;
+}
+h1 {
+    font: 900 2em Georgia, serif; 
+    margin: 10px 100px;
+    text-shadow: -1px 0 #FFF, 0 1px #FFF, 1px 0 #FFF, 0 -1px #FFF;
+}
+button {
+    padding: 3px;
+    font:1.2em arial, sans-serif;
+    background: #F1E873;
+    border: 3px outset #988527;
+    margin: 0 5px 1px 5px;
+}
+footer {
+    clear: both;
+    background: #090;
+    color: #1D3900;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    position: fixed;
+    padding: 5px 0;
+    bottom: 0px;
+    width: 100%;
+    opacity: 0.4;
+}
+#cop {
+    float: right;
+    margin-right: 25%;
+}
+#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#b10,#b11,#b12,#b13,#b14,#b15
+{
+    margin: 25px 20px 25px -10px;
+}
+#myCanvas1
+{
+    float: left;
+    margin-left: 30px;
+}
+#buttons1
+{
+    width: 200px;
+    float: left;
+}
+#myCanvas2
+{
+    float: left;
+}
+#buttons2
+{
+    width: 200px;
+    float: left;
+}
